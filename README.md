@@ -43,9 +43,11 @@ All three algorithms are evaluated using the same 20 test environment seeds to p
 
 | Algorithm | Average Test Reward |
 |------------|--------------------:|
-| SARSA | 136.90 |
-| Q-learning | 80.60 |
-| Expected SARSA | 43.95 |
+| SARSA | 362.80 |
+| Q-learning | 165.00 |
+| Expected SARSA | 170.75 |
+
+The table matches the saved common-seed evaluation outputs (seeds 8000–8019). The earlier SARSA-only evaluation uses different seeds and is not used in this comparison.
 
 Under the selected discretization and hyperparameters, SARSA achieved the highest average test reward.
 
